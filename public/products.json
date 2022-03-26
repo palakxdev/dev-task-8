@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Symmetrical Two Flowers Diamond Ring",
+    "price": 29988,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dr-3.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "name": "Elegant Lotus Flower Diamond Ring",
+    "price": 33012,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dr-2.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "name": "Angelic Two Flowers Diamond Ring",
+    "price": 28978,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dr-1.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "Natural Fresh Water Pearls Asymmetry leaf Long Necklace",
+    "price": 111756,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dn-1.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "5",
+    "name": "Natural White Pearl Choker Necklace",
+    "price": 292256,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dn-2.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "6",
+    "name": "Cloisonne Leaf Pendant With Natural Pearl",
+    "price": 658988,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/dn-3.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "7",
+    "name": "White Coin Pearl Stretch Bracelet",
+    "price": 2588,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/db-1.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "8",
+    "name": "White Flower Keshi Pearl Bracelet",
+    "price": 2688,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/db-2.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "9",
+    "name": "Water Pearl Small Metal Ball Bracelets",
+    "price": 3458,
+    "img": "https://techwarbd.com/wp-content/uploads/2022/03/db-3.jpg",
+    "quantity": 0
+  }
+]
