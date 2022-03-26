@@ -1,19 +1,31 @@
 import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
+import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
+
     useEffect( () => {
         fetch('products.json')
         .then(res => res.json())
         .then(data => setProducts(data))
     }, []);
+    
+    const addToCart = (product) => {
+        console.log(product);
+    }
+
     return (
-        <div className='shop-container container-fluid row mt-4'>
-            <div className="products-container col-8">
-                <h3>Choose four product to generate best one: {products.length}</h3>
+        <div className='shop-container'>
+            <div className="products-container">
+                {
+                    products.map(product =><Product key={product.id} product={product} addToCart={addToCart}></Product>)
+                }
             </div>
-            <div className="cart-container col-4">
+            <div className="cart-container m-2">
+            {/* <Cart cart={cart}></Cart> */}
                 <h3>Your Selected Products</h3>
+                <hr />
             </div>
         </div>
     );
