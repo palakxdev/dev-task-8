@@ -16,6 +16,9 @@ const Shop = () => {
     const addToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart)
+        if(cart.length > 3) {
+            alert('Maximum Product Added!')
+        }
     };
 
     return (
@@ -47,7 +50,7 @@ const Shop = () => {
                     <h1>Difference between props and state?</h1>
                     <p>Answer:</p>
                     <p>Props:</p>
-                    <p>Props are like properties. Props are read-only types of data. We can get or receive different types of data as props. Basically, props send the data into an object. We can get an array, object, or function as a prop, and we can destructure or directly use the data in our code. Also, we can dynamically show data in our application UI from the props. We can not reset the props data. Also, we can not make changes to the prop. We can destructure data from the props. </p>
+                    <p>Props are like properties. Props are read-only types of data. We can get or receive different types of data as props. Basically, props send the data into an object. We can get an array, object, or function as a prop, and we can destructure or directly use the data in our code. Also, we can dynamically show data in our application UI from the props. We can not reset the props data. Also, we can not make changes to the prop. We can destructure data from the props. </p>
                     <p>State:</p>
                     <p>When we write a react component, we have to use state. Because when users use our app, they will either make some changes or they can do some activities. The state can understand that and change the state for the user. That means states are changeable. Basically, the state contains the data for the react component. Every react component could have one or more states depending on the react app.</p>
                 </div>
