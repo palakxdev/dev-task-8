@@ -38,3 +38,35 @@ hr {
         flex-direction: column-reverse;
     }
 }
+
+.reset-btn {
+    color: #ffffff;
+    background-color: #5ABAC3;
+    border: 1px solid #E0ABB6;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.reset-btn:hover {
+    background-color: #E0ABB6;
+    transition: 0.2s;
+}
+
+.Choose-btn {
+    color: #ffffff;
+    background-color: #5ABAC3;
+    border: 1px solid #E0ABB6;
+    border-radius: 30px;
+    padding: 5px 40px;
+}
+
+.Choose-btn:hover {
+    background-color: #E0ABB6;
+    transition: 0.2s;
+}
+
+.container {
+    background-color: #93CCD4;
+    border: 1px solid #E0ABB6;
+    border-radius: 10px;
+}
