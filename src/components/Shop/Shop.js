@@ -6,6 +6,7 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [select, setSelect] = useState()
 
     useEffect( () => {
         fetch('products.json')
@@ -21,6 +22,12 @@ const Shop = () => {
         }
     };
 
+    const randomGenerate = () => {
+        const randomCart = (Math.floor(Math.random() * cart.length));
+        setSelect(cart[randomCart])
+    }
+
+
     return (
             <div>
                 <div className='shop-container'>
@@ -34,13 +41,20 @@ const Shop = () => {
                     <h3>Your Selected Products</h3>
                     <hr />
                     {
-                        cart.map(item =><Cart key={item.id} item={item}></Cart>)
+                        cart.slice(0, 4).map(item =><Cart key={item.id} item={item}></Cart>)
                     }
                     <div className='p-2 text-center'>
-                    <button className='reset-btn'>Reset</button>
+                    <button onClick={() => setSelect("")} className='reset-btn'>Reset</button>
                     <br />
-                    <button className='Choose-btn mt-2'>Generate One</button>
+                    <button onClick={randomGenerate} className='Choose-btn mt-2'>Generate One</button>
+
                     </div>
+                    {select &&
+                    <div className='p-2'>
+                        <h5>{select.name}</h5>
+                    </div>
+                    
+                    }
                 </div>
             </div>
                 <div className="container mt-4 mb-2 p-4">
