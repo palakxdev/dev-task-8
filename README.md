@@ -1,4 +1,3 @@
 # Luxury Shopping Center
 
-## Live site url:
-Click here to see live site:[LIVE SITE](https://luxury-shopping-center.netlify.app).
+## Live site url: [CLICK HERE](https://luxury-shopping-center.netlify.app).
